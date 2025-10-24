@@ -63,33 +63,50 @@ sudo ./netmon enp0s3
 ```
 🖥️ 3. Provide Input
 
-You’ll be prompted to enter:
+**You’ll be prompted to enter: **
+
 Source IP
+
 Destination IP
 
-Then the program will:
+**Then the program will:**
+
 Capture packets for 1 minute
+
 Dissect layers
+
 Filter and replay packets
+
 Display detailed logs and a final summary
 
-🧰 System Requirements
+🧰 **System Requirements: **
+
 🐧 Linux environment
+
 🔑 Root privileges (required for raw socket access)
+
 ⚙️ g++ compiler supporting C++17
 
-🧮 Implementation Details
+🧮 **Implementation Details:**
+
 Designed modularly for clarity and scalability.
+
 Uses multithreading for concurrent capture and replay.
+
 Built from scratch using custom Stack and Queue classes.
+
 Efficient error handling ensures robustness against corrupted or incomplete packets.
 
-🌟 Why This Project Excels
+🌟 **Why This Project Excels: **
 
 This project demonstrates:
+
 Exceptional clarity in data structure design
+
 Deep understanding of network layer parsing
+
 Robust implementation of capture, filtering, and replay mechanisms
+
 Professional documentation and real-world testing
 
 
