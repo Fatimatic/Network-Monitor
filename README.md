@@ -50,59 +50,46 @@ Together, these structures ensure smooth and structured **real-time packet analy
 ### 🧩 1. Compile the Code
 ```bash
 g++ -std=c++17 -pthread -o netmon netmon.cpp
-
+'''
 
 2. Run as Root
+'''bash
 sudo ./netmon <interface_name>
-
+'''
 
 Example:
-
+'''bash
 sudo ./netmon enp0s3
-
+'''
 🖥️ 3. Provide Input
 
 You’ll be prompted to enter:
-
 Source IP
-
 Destination IP
 
 Then the program will:
-
 Capture packets for 1 minute
-
 Dissect layers
-
 Filter and replay packets
-
 Display detailed logs and a final summary
+
 🧰 System Requirements
 🐧 Linux environment
 🔑 Root privileges (required for raw socket access)
-
 ⚙️ g++ compiler supporting C++17
 
 🧮 Implementation Details
-
 Designed modularly for clarity and scalability.
-
 Uses multithreading for concurrent capture and replay.
-
 Built from scratch using custom Stack and Queue classes.
-
 Efficient error handling ensures robustness against corrupted or incomplete packets.
 
 🌟 Why This Project Excels
 
 This project demonstrates:
-
 Exceptional clarity in data structure design
-
 Deep understanding of network layer parsing
-
 Robust implementation of capture, filtering, and replay mechanisms
-
 Professional documentation and real-world testing
 
 
