@@ -61,9 +61,9 @@ Example:
 ```bash
 sudo ./netmon enp0s3
 ```
-🖥️ 3. Provide Input
+🖥️ 3. **Provide Input:**
 
-**You’ll be prompted to enter: **
+**You’ll be prompted to enter:**
 
 Source IP
 
@@ -79,7 +79,7 @@ Filter and replay packets
 
 Display detailed logs and a final summary
 
-🧰 **System Requirements: **
+🧰 **System Requirements:**
 
 🐧 Linux environment
 
@@ -97,7 +97,7 @@ Built from scratch using custom Stack and Queue classes.
 
 Efficient error handling ensures robustness against corrupted or incomplete packets.
 
-🌟 **Why This Project Excels: **
+🌟 **Why This Project Excels:**
 
 This project demonstrates:
 
