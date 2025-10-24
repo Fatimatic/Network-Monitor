@@ -53,14 +53,14 @@ g++ -std=c++17 -pthread -o netmon netmon.cpp
 ```
 
 2. Run as Root
-'''bash
+```bash
 sudo ./netmon <interface_name>
-'''
+```
 
 Example:
-'''bash
+```bash
 sudo ./netmon enp0s3
-'''
+```
 🖥️ 3. Provide Input
 
 You’ll be prompted to enter:
